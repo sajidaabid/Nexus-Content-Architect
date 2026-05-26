@@ -14,12 +14,14 @@
 ​Simply initialize the ContentArchitect class with your text:
 
 
+
 from main import ContentArchitect
 
 text = "Your content goes here..."
 architect = ContentArchitect(text)
 results = architect.analyze()
 print(results)
+
 
 📈 Roadmap (Future Development)
 ​[ ] Add Keyword Density calculation
